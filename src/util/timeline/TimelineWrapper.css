@@ -1,0 +1,52 @@
+.timeline-page {
+    padding: 10px 0;
+    position: relative;
+    margin-top: 30px;
+}
+
+.timeline-page::after {
+    content: "";
+    height: 100%;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+}
+
+.under-line {
+    display: inline-block;
+    position: relative;
+    width: 170px;
+    height: 1px;
+    margin: 5px auto 10px;
+}
+
+.line-up {
+    position: absolute;
+    line-height: 1;
+    left: 1px;
+    width: 100%;
+    top: -9px;
+}
+
+.dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    transform: rotate(-45deg);
+    margin-right: 2px;
+}
+
+.under-line,
+.dot,
+.container-filter li a.active,
+.timeline-page::after,
+.timeline-page .timeline-item .company:after,
+.timeline-page .timeline-item .location:after,
+.timeline-page .timeline-item .date:after,
+.timeline-page .timeline-item .tools:after{
+    background-color: #0089ff;
+}
+

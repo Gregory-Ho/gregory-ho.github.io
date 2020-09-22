@@ -1,0 +1,139 @@
+/*TODO: Move left right class onto timeline-time instead of each child*/
+
+.timeline-item {
+    margin-bottom: 30px;
+}
+
+.timeline-page .timeline-item .company:after,
+.timeline-page .timeline-item .location:after,
+.timeline-page .timeline-item .date:after,
+.timeline-page .timeline-item .tools:after {
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    content: "";
+    height: 20px;
+    position: absolute;
+    top: 25px;
+    width: 20px;
+    z-index: 1;
+}
+.timeline-page .timeline-item .left .company:after,
+.timeline-page .timeline-item .left .location:after,
+.timeline-page .timeline-item .left .date:after,
+.timeline-page .timeline-item .left .tools:after {
+    right: -10px;
+}
+
+.timeline-page .timeline-item .right .company:after,
+.timeline-page .timeline-item .right .location:after,
+.timeline-page .timeline-item .right .date:after,
+.timeline-page .timeline-item .right .tools:after {
+    left: -10px;
+}
+
+.timeline-page .timeline-item .item-box {
+    padding: 20px 20px 20px 20px;
+
+}
+
+.timeline-page .timeline-item .item-description.left {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.timeline-page .timeline-item .item-description {
+    text-align: left;
+    margin-right: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.timeline-subtitle {
+    line-height: 26px;
+    font-size: 1.05rem;
+    color: #666;
+}
+
+.timeline-item .item-info {
+    font-size: 1.05rem;
+}
+
+.timeline-item .item-info.left{
+    text-align: right;
+}
+
+.timeline-item .item-info.right{
+    text-align: left;
+}
+
+.company,
+.date,
+.location,
+.tools,
+.project-link,
+.github {
+    margin-bottom: 2px;
+}
+
+.company-icon.left,
+.date-icon.left,
+.location-icon.left,
+.link-icon.left,
+.github-icon.left {
+    margin-left: 10px;
+}
+
+.company-icon.right,
+.date-icon.right,
+.location-icon.right,
+.link-icon.right,
+.github-icon.right {
+    margin-right: 10px;
+    float: left;
+}
+
+.tools-icon.left{
+    margin-left: 5px;
+}
+
+.tools-icon.right{
+    margin-right: 5px;
+    float: left;
+}
+
+.project-link > a,
+.github > a {
+    vertical-align: middle;
+}
+
+.timeline-item .item-description-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 1.5em;
+    text-indent: -1.5em;
+}
+
+.item-description-list > li:before {
+    content: "\2BC8";
+    padding-right: 0.5em;
+    color: black;
+}
+
+.item-description .arrow {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 25px;
+    transform: rotate(45deg);
+    background-color: white;
+    z-index: 0;
+}
+
+.item-description .arrow.left {
+    left: 20px;
+    box-shadow: -1px 1px 2px 0px rgba(0,0,0,0.1);
+}
+
+.item-description .arrow.right {
+    right: 20px;
+    box-shadow: 3px -3px 5px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,60 @@
+.particles-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.introduction {
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: linear-gradient(180deg, #088dff 20%, #FFF 100%);
+}
+
+.introduction-content {
+    position: relative;
+    z-index: 2;
+}
+
+.profile-image {
+    border-radius: 50% !important;
+    width: 200px;
+    margin-top: 100px;
+    border: solid lightgrey 5px;
+    box-shadow: 0 20px 80px rgba(0,0,0, 0.2);
+}
+
+.name {
+    margin-top: 20px;
+}
+
+.text-box {
+    width: 50%;
+    margin: 100px auto auto;
+}
+
+.social {
+    margin-top: 150px;
+    font-size: 1.05rem;
+}
+
+.social > .contact-icon {
+    color: black;
+}
+
+.contact-text {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+social > .linkedin-icon {
+    text-align: right;
+}
+
+
+social > .github-icon {
+    text-align: left;
+}
+
+h1 {
+    /*color: #84b1f3;*/
+}

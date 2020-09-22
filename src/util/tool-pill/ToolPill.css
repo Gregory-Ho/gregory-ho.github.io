@@ -1,0 +1,36 @@
+.tool-pill {
+    display: inline;
+    border: solid 1px #0083ff;
+    border-radius: 8px;
+    padding: 4px 6px;
+    font-size: 0.8rem;
+    margin: 0 5px;
+}
+
+.tool-color-language {
+    border-color: #941313;
+}
+
+.tool-color-web {
+    border-color: #ce05ef;
+}
+
+.tool-color-library {
+    border-color: #4d11ca;
+}
+
+.tool-color-tool {
+    border-color: #275a30;
+}
+
+.tool-color-hardware {
+    border-color: #14caba;
+}
+
+.tool-color-cloud {
+    border-color: #fca403;
+}
+
+.tool-color-devops {
+    border-color: #000000;
+}

@@ -1,0 +1,24 @@
+#contact {
+    background-color: #0a0d35;
+    height: 80px;
+    border-top: solid 2px #0095ff;
+}
+
+#contact > .row {
+    height: 100%;
+    align-items: center;
+}
+
+.contact-text {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+#contact > .row > .linkedin-icon {
+    text-align: right;
+}
+
+
+#contact > .row > .github-icon {
+    text-align: left;
+}
