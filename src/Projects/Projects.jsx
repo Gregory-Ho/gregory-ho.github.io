@@ -6,6 +6,20 @@ import * as Tools from "../util/tool-pill/Tools";
 
 const ProjectsList = [
 {
+    "layoutClass": " left",
+    "date": "Feb 2021 - Present",
+    "linkText": "Coming soon!",
+    "link": "",
+    "tools": [Tools.JAVASCRIPT, Tools.REACT, Tools.CHROME_API, Tools.AMCHARTS],
+    "title": "Distractionless – Browsing Activity Management",
+    "description":
+        <ul className="item-description-list right">
+            <li>Built a web extension to help users track their browsing activity and set time limits on websites or block them completely to stay focused</li>
+            <li>Used the Chrome API to listen for browser events and manage storage</li>
+            <li>Designed a dashboard to visualize browsing activity on a daily basis</li>
+        </ul>
+},
+{
   "layoutClass": " right",
   "date": "Jul 2020",
   "github": "https://github.com/Gregory-Ho/RLTicTacToe",

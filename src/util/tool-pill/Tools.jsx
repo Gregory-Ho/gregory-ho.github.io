@@ -21,6 +21,10 @@ export const SPRING_BOOT  = ["Spring Boot", "tool-color-library"];
 export const NUMPY        = ["NumPy", "tool-color-library"];
 export const TENSORFLOW   = ["Tensorflow", "tool-color-library"];
 export const RABBITMQ     = ["RabbitMQ", "tool-color-library"];
+export const KAFKA        = ["Kafka", "tool-color-library"];
+export const CHROME_API   = ["Chrome API", "tool-color-library"];
+export const AMCHARTS     = ["amCharts", "tool-color-library"];
+export const MICROMETER   = ["Micrometer", "tool-color-library"];
 
 export const POSTMAN      = ["Postman", "tool-color-tool"];
 export const INTELLIJ     = ["IntelliJ", "tool-color-tool"];
@@ -35,7 +39,8 @@ export const OMEGA2       = ["Omega 2", "tool-color-hardware"];
 export const AWS          = ["AWS", "tool-color-cloud"];
 export const SALESFORCE   = ["Salesforce", "tool-color-cloud"];
 
-
 export const MAVEN        = ["Maven", "tool-color-devops"];
 export const DOCKER       = ["Docker", "tool-color-devops"];
 export const OPENAI       = ["OpenAI Gym", "tool-color-devops"];
+export const KUBERNETES   = ["Kubernetes", "tool-color-devops"];
+export const GRAFANA      = ["Grafana", "tool-color-library"];

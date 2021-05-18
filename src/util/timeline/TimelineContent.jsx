@@ -60,11 +60,16 @@ class TimelineContent extends React.Component {
             </div>
         }
         {
-          this.props.link && this.props.linkText &&
+          this.props.linkText &&
           <div className="project-link">
-            <a href={this.props.link}>
-              {this.props.linkText}
-            </a>
+            {
+              this.props.link ?
+                <a href={this.props.link}>
+                  {this.props.linkText}
+                </a>
+              :
+                this.props.linkText
+            }
             <PublicIcon className={"link-icon" + layoutClass}/>
           </div>
         }

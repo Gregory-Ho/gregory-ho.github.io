@@ -6,6 +6,20 @@ import * as Tools from "../util/tool-pill/Tools";
 
 const JobsList = [
 {
+    "layoutClass": " right",
+    "company": "Ultimate Software",
+    "date": "Jan 2021 - Apr 2021",
+    "location": "Toronto, ON",
+    "tools": [Tools.GRAFANA, Tools.KUBERNETES, Tools.RABBITMQ, Tools.KAFKA, Tools.SPRING_BOOT, Tools.JAVA],
+    "title": "Software Engineer",
+    "description":
+        <ul className="item-description-list right">
+            <li>Worked on building a suite of scalable microservices to process and dispatch over 200,000 SMS, email and other notification requests on a weekly basis using Spring, RabbitMQ, Kafka, MongoDB, and Kubernetes</li>
+            <li>Launched an external facing gateway to access our services using Spring Cloud Gateway and secured it using OAuth 2.0</li>
+            <li>Created visualization dashboards to monitor events and the behaviour of our microservices using Micrometer, InfluxDB, Grafana, and Kibana</li>
+        </ul>
+},
+{
   "layoutClass": " left",
   "company": "StackAdapt",
   "date": "Sep 2019 - Dec 2019",
@@ -27,9 +41,9 @@ const JobsList = [
   "title": "Software Test Engineer",
   "description":
     <ul className="item-description-list right">
-      <li>Wrote integration and unit tests with JUnit to ensure microservices functioned as expected and maintained a 99% uptime</li>
+      <li>Wrote integration and unit tests using Junit and Mockito to ensure microservices functioned as expected and maintained a 99% uptime</li>
       <li>Improved existing tests by refactoring code structure and redesigning time sensitive tests to ensure consistent test reliability</li>
-      <li>Conducted end-to-end testing of new features from UI to database</li>
+      <li>Automated integration and contract tests between microservices</li>
     </ul>
 }, {
     "layoutClass": " left",
